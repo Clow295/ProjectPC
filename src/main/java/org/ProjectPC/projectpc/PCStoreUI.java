@@ -186,7 +186,7 @@ public class PCStoreUI extends JFrame {
 			ImageIcon imageIcon = new ImageIcon(imageUrl);
 			// Resize the image if needed
 			Image image = imageIcon.getImage();
-			Image resizedImage = image.getScaledInstance(300, 300, Image.SCALE_SMOOTH);
+			Image resizedImage = image.getScaledInstance(250, 250, Image.SCALE_SMOOTH);
 			return new ImageIcon(resizedImage);
 		} catch (Exception e) {
 			e.printStackTrace();
