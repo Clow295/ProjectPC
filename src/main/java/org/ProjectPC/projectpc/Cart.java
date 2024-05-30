@@ -59,9 +59,8 @@ public class Cart extends JPanel {
 
         productTable = new JTable(productModel);
         add(new JScrollPane(productTable), BorderLayout.CENTER);
-
+        productTable.setRowHeight(50);
        
-        
         JButton confirmButton = new JButton("Xác nhận");
         confirmButton.addActionListener(e -> {
             saveToExcel();
