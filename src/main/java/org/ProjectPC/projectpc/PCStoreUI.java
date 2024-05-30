@@ -160,7 +160,7 @@ public class PCStoreUI extends JFrame {
 			}
 			data.add(vector);
 		}
-
+ 
 		DefaultTableModel model = new DefaultTableModel(data, columnVector) {
 			@Override
 			public Class<?> getColumnClass(int column) {

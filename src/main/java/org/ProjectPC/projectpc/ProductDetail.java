@@ -263,7 +263,7 @@ public class ProductDetail extends JPanel {
             }
             data.add(vector);
         }
-
+ 
         // Remove the first row
         if (data.size() > 0) {
             data.remove(0); // Remove first row

@@ -157,7 +157,7 @@ public class ConsultUI extends JPanel {
 			e.printStackTrace();
 		}
 	}
-
+ 
 	private DefaultTableModel buildTableModel(ResultSet rs) throws SQLException {
 		ResultSetMetaData metaData = rs.getMetaData();
 
